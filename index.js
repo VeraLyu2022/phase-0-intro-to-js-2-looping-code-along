@@ -16,9 +16,26 @@
  
 // writeCards
 
+// const names = [ 'Guadalupe', 'Ollie', 'Aki' ];
+
+// function writeCards(names, events) {
+//     const writtenCards = [];
+//     for (let i = 0 ; i < names.length; i++) {
+        
+//        writtenCards.push("Thank you, " + names[i] + ", for the wonderful " + events + " gift!");
+      
+//     }
+//     return writtenCards;
+ 
+// }
+
+// writeCards(names, "birthday")
+
+
 const names = [ 'Guadalupe', 'Ollie', 'Aki' ];
 const writtenCards = [];
 function writeCards(names, events) {
+   
     for (let i = 0 ; i < names.length; i++) {
         
        writtenCards.push("Thank you, " + names[i] + ", for the wonderful " + events + " gift!");
@@ -28,7 +45,10 @@ function writeCards(names, events) {
  
 }
 
-writeCards(names, "birthday")
+console.log(writeCards(names, "surprise"));
+
+
+
 
 
 
